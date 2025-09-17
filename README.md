@@ -12,7 +12,7 @@ It displays today’s date, shows a progress bar that updates as tasks are compl
 ## 🚀 Demo
 ![Progress Tracker Screenshot](<img width="427" height="337" alt="Screenshot 2025-09-17 at 5 34 14 pm" src="https://github.com/user-attachments/assets/bcda22c6-c3c8-4261-b2d5-bfaa9aa5f98e" />
 )  
-*(Add a screenshot of your app here for a preview)*  
+
 
 ## 🛠️ Tech Stack
 - HTML  
