@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<head> 
+
+<head>
     <meta charset="UTF-8">
-    <title>Progress Bar</title>
+    <title>Cute To-Do List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="progress-container">
-        <div class="progress-bar" id="progress-bar"></div>
-    </div>
+    <div class="app-card">
+        <h2>To-Do List</h2>
 
-    <button onclick="increaseProgress()">Increase Progress</button>
+        <div class="top-section">
+            <div class="date-box" id="date-box"></div>
+            <div class="progress-box">
+                <p>Progress:</p>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                <p id="progress-text">0 / 0 tasks done</p>
+            </div>
+        </div>
+
+        <div class="task-input">
+            <input type="text" id="task-input" placeholder="Input your task!">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+
+        <h3>My Tasks</h3>
+        <ul id="task-list"></ul>
+    </div>
 
     <script src="script.js"></script>
 </body>
 
-</html>  
+</html>
