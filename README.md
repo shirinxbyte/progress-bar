@@ -22,7 +22,7 @@ It displays today’s date, shows a progress bar that updates as tasks are compl
 ## 📂 Installation
 1. Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/progress-tracker.git
+   git clone https://github.com/shirinxbyte/progress-tracker.git
 
 Open index.html in your browser.
 
