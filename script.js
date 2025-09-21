@@ -11,7 +11,7 @@ function showDate() {
 
     dateBox.innerHTML = `${weekday}<br>${day}<br>${month}`;
 }
-
+ 
 function updateProgress() {
     const progressBar = document.getElementById('progress-bar');
     const progressText = document.getElementById('progress-text');
