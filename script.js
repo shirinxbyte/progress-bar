@@ -1,4 +1,4 @@
-let totalTasks = 0; 
+let totalTasks = 0;  
 let completedTasks = 0; 
     
 function showDate() {
