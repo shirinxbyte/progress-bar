@@ -1,5 +1,5 @@
 let totalTasks = 0;   
-let completedTasks = 0;    
+let completedTasks = 0;     
       
 function showDate() {
     const dateBox = document.getElementById('date-box');
